@@ -1,16 +1,40 @@
-# React + Vite
+# Arbaeen Pilgrim Assistant Chatbot
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A web-based conversational AI chatbot designed to assist pilgrims during the Arbaeen walk from Najaf to Karbala, Iraq.
 
-Currently, two official plugins are available:
+## Live Application
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://arbaeen-chatbot.vercel.app
 
-## React Compiler
+## About the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Arbaeen is one of the largest annual human gatherings on earth, drawing an estimated 20 to 25 million pilgrims to Karbala each year. This chatbot helps pilgrims by answering questions in three core areas:
 
-## Expanding the Oxlint configuration
+- Mawkib station locations along the route
+- First aid guidance for heat exhaustion, dehydration, and foot blisters
+- Route and distance information from Najaf to Karbala
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Technology Stack
+
+| Component | Technology |
+|---|---|
+| Frontend | React.js with Vite |
+| AI Model | Llama 3.1 8B Instant |
+| AI API | Groq (free tier) |
+| Hosting | Vercel |
+| Version Control | Git and GitHub |
+
+## Project Context
+
+This project was developed as part of the Advanced Online Business course at the University of Tehran, Farabi College, following an agile methodology with four sprints over six weeks.
+
+**Student:** Mohammed Razzaq Mohsen Al-Tayyar  
+**Student ID:** 220704109
+
+## Getting Started
+
+1. Clone the repository
+2. Run `npm install`
+3. Create a `.env` file and add your Groq API key: `VITE_GROQ_API_KEY=your_key_here`
+4. Run `npm run dev`
+EOF
